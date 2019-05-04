@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_alarm3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="ALARM"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/bt_home"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="미정"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/bt_timeterm" />
+
+    <Button
+        android:id="@+id/bt_timeterm"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="TERM"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/bt_alarm3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_shop"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="SHOP"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/bt_alarm3" />
+
+    <Button
+        android:id="@+id/bt_home"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="HOME"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_setting"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="SETTING"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/bt_home" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_img" />
+
+</android.support.constraint.ConstraintLayout>

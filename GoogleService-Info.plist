@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>317103695573-djvdjbtij6genlft8gkq9pm222ad23aa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.317103695573-djvdjbtij6genlft8gkq9pm222ad23aa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC7t5PSh2Q6jg2SN1970sXcKnXJj_KAIHc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>317103695573</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.smart3</string>
+	<key>PROJECT_ID</key>
+	<string>smartmult-18f02</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smartmult-18f02.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:317103695573:ios:37277d612b268074</string>
+	<key>DATABASE_URL</key>
+	<string>https://smartmult-18f02.firebaseio.com</string>
+</dict>
+</plist>
