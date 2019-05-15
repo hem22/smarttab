@@ -21,16 +21,7 @@ public class AppCompatActicity extends AppCompatActivity {
         switch1 = (Switch) findViewById(R.id.switch1);
         switch2 = (Switch) findViewById(R.id.switch2);
 
-       /* switch1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(((Switch)v).isChecked()) {
-                    Toast.makeText((Context) home1,"전기가 켜집니다.",LENGTH_LONG).show();
-                }else{
-                    Toast.makeText((Context) home1,"전기가 꺼집니다.",LENGTH_LONG).show();
-                }
-            }
-        });*/
+
         switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked){
